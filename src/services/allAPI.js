@@ -1,6 +1,6 @@
 import { commonAPI } from "./commonApi";
 
-const serverURL = 'http://localhost:3001';
+const serverURL = 'https://todo-proj-server-lziq427jk-thuf786s-projects.vercel.app';
 
 // To upload a new todo
 export const uploadTodo = async (reqBody) => {
