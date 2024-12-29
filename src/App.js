@@ -13,10 +13,10 @@ function App() {
 
   return (
     <Routes>
-      {/* Public route */}
+
       <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
 
-      {/* Private route */}
+
       <Route
         path="/"
         element={
